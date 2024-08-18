@@ -1,0 +1,9 @@
+%box-shadow {
+  box-shadow: 0 0 30px -10px;
+}
+
+@mixin circle($width, $height) {
+  width: $width;
+  height: $height;
+  border-radius: 50% !important;
+}

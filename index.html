@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap css file -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- font awesome css file  -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- main css file -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav class="position-absolute top-0 w-100 z-3 py-2 overflow-hidden">
+      <div class="container d-flex justify-content-between align-items-center">
+        <a class="logo text-decoration-none fs-1 fw-bold">LOGO</a>
+        <div class="links">
+          <ul class="list-unstyled d-flex gap-5 m-0">
+            <li>
+              <a href="#services-section" class="text-decoration-none"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a href="#testimonial-section" class="text-decoration-none"
+                >Testimonial</a
+              >
+            </li>
+            <li>
+              <a href="#contact-section" class="text-decoration-none"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a href="#sponsors-section" class="text-decoration-none"
+                >Sponsors</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="login-register d-flex gap-2 align-items-center">
+          <div
+            class="sign-in rounded-pill py-2 px-4 border border-2 main-color position-relative"
+          >
+            Sign In
+          </div>
+          <div
+            class="sign-up rounded-pill py-2 px-4 border border-2 text-white main-bg position-relative"
+          >
+            Sign Up
+          </div>
+          <div class="menu-icon flex-column gap-2 ms-4">
+            <span class="w-100 bg-black"></span>
+            <span class="w-100 bg-black"></span>
+            <span class="w-100 bg-black"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="menu-small-screen position-absolute h-100 d-flex flex-column justify-content-center align-items-center overflow-hidden"
+    >
+      <ul class="list-unstyled d-flex flex-column gap-3 m-0">
+        <li class="text-center">
+          <a
+            href="#services-section"
+            class="text-decoration-none text-white fw-bold fs-1"
+            >Services</a
+          >
+        </li>
+        <li class="text-center">
+          <a
+            href="#testimonial-section"
+            class="text-decoration-none text-white fw-bold fs-1"
+            >Testimonial</a
+          >
+        </li>
+        <li class="text-center">
+          <a
+            href="#contact-contact"
+            class="text-decoration-none text-white fw-bold fs-1"
+            >Contact</a
+          >
+        </li>
+        <li class="text-center">
+          <a
+            href="#sponsors-section"
+            class="text-decoration-none text-white fw-bold fs-1"
+            >Sponsors</a
+          >
+        </li>
+      </ul>
+      <div class="close-menu position-absolute">
+        <i class="fa-solid fa-circle-xmark text-white"></i>
+      </div>
+    </div>
+    <!-- end nav -->
+
+    <!-- start landing -->
+    <div class="landing">
+      <div class="container position-relative h-100">
+        <!-- start landing content -->
+        <div
+          class="content d-flex justify-content-between position-relative top-50 translate-middle-y h-100"
+        >
+          <div
+            class="text d-flex flex-column justify-content-center w-50 text-center text-lg-start"
+          >
+            <h1 class="">
+              We help with your company's <span class="main-color">growth</span>
+            </h1>
+            <p class="text-black-50 lh-base w-75">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              cumque magnam quos beatae inventore repellat exercitationem
+              quibusdam minus.
+            </p>
+            <div class="start-contact d-flex gap-3 mt-3">
+              <div
+                class="start rounded-3 border border-2 py-2 px-4 main-bg text-white"
+              >
+                Get Started<i
+                  class="fa-solid fa-chevron-right ms-2"
+                  style="font-size: 13px"
+                ></i>
+              </div>
+              <div
+                class="contact rounded-3 border border-2 py-2 px-4 main-color"
+              >
+                Contact Us
+              </div>
+            </div>
+            <div class="login-register gap-2 align-items-center">
+              <div
+                class="sign-in rounded-pill py-2 px-4 border border-2 main-color position-relative"
+              >
+                Sign In
+              </div>
+              <div
+                class="sign-up rounded-pill py-2 px-4 border border-2 text-white main-bg position-relative"
+              >
+                Sign Up
+              </div>
+            </div>
+          </div>
+          <div class="images position-relative w-50">
+            <img
+              src="assets/images/woman-think.png"
+              alt="woman thinking"
+              class="position-absolute start-50 translate-middle-x bottom-0"
+              width="400"
+              height="600"
+            />
+            <div class="google-icon p-2 rounded-3 bg-white position-absolute">
+              <img
+                src="assets/images/google.png"
+                alt="google icon"
+                width="40"
+              />
+            </div>
+            <div class="twitter-icon p-2 rounded-3 bg-white position-absolute">
+              <img
+                src="assets/images/twitter.png"
+                alt="twitter icon"
+                width="40"
+              />
+            </div>
+          </div>
+          <div
+            class="statistics position-absolute start-50 translate-middle-x p-3 d-flex bg-white rounded-5"
+          >
+            <div class="box text-center">
+              <h5>Google Searches</h5>
+              <p class="fw-bold fs-1 my-1">90</p>
+              <p style="font-size: 13px" class="text-success m-0">
+                <i class="fa-solid fa-arrow-trend-up me-1"></i> 2.4%
+              </p>
+            </div>
+            <div class="box text-center">
+              <h5>Implementing</h5>
+              <p class="fw-bold fs-1 my-1">120</p>
+              <p style="font-size: 13px" class="text-success m-0">
+                <i class="fa-solid fa-arrow-trend-up me-1"></i> 1.23%
+              </p>
+            </div>
+            <div class="box text-center">
+              <h5>Innovation</h5>
+              <p class="fw-bold fs-1 my-1">60</p>
+              <p style="font-size: 13px" class="text-success m-0">
+                <i class="fa-solid fa-arrow-trend-up me-1"></i> 3.65%
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- end landing content -->
+      </div>
+    </div>
+    <!-- end landing -->
+
+    <!-- start services -->
+    <section class="services pt-5 section-bg position-relative">
+      <div class="container">
+        <div class="section-head text-center">
+          <h1 class="fw-bold main-color">Potential Marketing Services</h1>
+          <p
+            class="position-relative start-50 translate-middle-x w-50 text-black-50"
+            style="font-size: 15px"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nemo
+            quas eveniet corrupti libero facere.
+          </p>
+        </div>
+        <div class="row row-gap-3 my-5">
+          <div class="col-lg-4">
+            <div class="box p-4 bg-white rounded-4">
+              <h3 class="fw-bold d-flex gap-2 align-items-center">
+                <span class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-chart-simple text-white"></i>
+                </span>
+                Engaging Content
+              </h3>
+              <p class="text-black-50 mt-4" style="font-size: 15px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis amet illo autem quas quod necessitatibus itaque
+                accusamus perspiciatis ipsum odio.
+              </p>
+              <h5 class="my-3 fw-bold">Features :</h5>
+              <ul class="list-unstyled ps-2">
+                <li><i class="fa-solid fa-check me-2"></i>Lorem, ipsum.</li>
+                <li class="my-2">
+                  <i class="fa-solid fa-check me-2"></i>Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <i class="fa-solid fa-check me-2"></i>Lorem, ipsum dolor.
+                </li>
+              </ul>
+              <div
+                class="get-started rounded-3 w-100 py-2 fw-bold main-bg mt-5 text-center text-white"
+              >
+                Get Started
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="box p-4 bg-white rounded-4 active">
+              <h3 class="fw-bold d-flex gap-2 align-items-center">
+                <span class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-chart-simple text-white"></i>
+                </span>
+                SEO Services
+              </h3>
+              <p class="text-black-50 mt-4" style="font-size: 15px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis amet illo autem quas quod necessitatibus itaque
+                accusamus perspiciatis ipsum odio.
+              </p>
+              <h5 class="my-3 fw-bold">Features :</h5>
+              <ul class="list-unstyled ps-2">
+                <li><i class="fa-solid fa-check me-2"></i>Lorem, ipsum.</li>
+                <li class="my-2">
+                  <i class="fa-solid fa-check me-2"></i>Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <i class="fa-solid fa-check me-2"></i>Lorem, ipsum dolor.
+                </li>
+              </ul>
+              <div
+                class="get-started rounded-3 w-100 py-2 fw-bold main-bg mt-5 text-center text-white"
+              >
+                Get Started
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="box p-4 bg-white rounded-4">
+              <h3 class="fw-bold d-flex gap-2 align-items-center">
+                <span class="d-flex justify-content-center align-items-center">
+                  <i class="fa-solid fa-chart-simple text-white"></i>
+                </span>
+                Boost Search Google
+              </h3>
+              <p class="text-black-50 mt-4" style="font-size: 15px">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis amet illo autem quas quod necessitatibus itaque
+                accusamus perspiciatis ipsum odio.
+              </p>
+              <h5 class="my-3 fw-bold">Features :</h5>
+              <ul class="list-unstyled ps-2">
+                <li><i class="fa-solid fa-check me-2"></i>Lorem, ipsum.</li>
+                <li class="my-2">
+                  <i class="fa-solid fa-check me-2"></i>Lorem ipsum dolor sit.
+                </li>
+                <li>
+                  <i class="fa-solid fa-check me-2"></i>Lorem, ipsum dolor.
+                </li>
+              </ul>
+              <div
+                class="get-started rounded-3 w-100 py-2 fw-bold main-bg mt-5 text-center text-white"
+              >
+                Get Started
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- wave -->
+      <img
+        src="assets/images/wave.svg"
+        alt="wave png"
+        class="w-100 position-relative bottom-0"
+      />
+      <!-- end wave -->
+    </section>
+    <!-- end services -->
+
+    <!-- start our services -->
+    <section class="our-services mb-5" id="services-section">
+      <div class="container">
+        <div class="section-head text-center">
+          <h1 class="fw-bold main-color">Our Services</h1>
+          <p class="text-black-50" style="font-size: 15px">
+            What We Do You For
+          </p>
+        </div>
+        <div class="row row-gap-3 my-5">
+          <div class="col-lg-6">
+            <a
+              class="box section-bg rounded-4 d-flex gap-4 p-3 text-decoration-none"
+              href=""
+            >
+              <div class="num alt-color fw-bold fs-2">01</div>
+              <div class="box-con d-flex gap-3">
+                <div class="text">
+                  <h3 class="fw-bold main-color">Engaging Content</h3>
+                  <p class="text-black-50 fs-6 w-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat enim numquam aperiam esse. Similique eius optio rem
+                  </p>
+                </div>
+                <div class="arrow d-flex align-items-center">
+                  <i class="fa-solid fa-arrow-right me-4 fs-3 alt-color"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a
+              class="box section-bg rounded-4 d-flex gap-4 p-3 text-decoration-none"
+              href=""
+            >
+              <div class="num alt-color fw-bold fs-2">02</div>
+              <div class="box-con d-flex gap-3">
+                <div class="text">
+                  <h3 class="fw-bold main-color">Social Media Ads</h3>
+                  <p class="text-black-50 fs-6 w-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat enim numquam aperiam esse. Similique eius optio rem
+                  </p>
+                </div>
+                <div class="arrow d-flex align-items-center">
+                  <i class="fa-solid fa-arrow-right me-4 fs-3 alt-color"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a
+              class="box section-bg rounded-4 d-flex gap-4 p-3 text-decoration-none"
+              href=""
+            >
+              <div class="num alt-color fw-bold fs-2">03</div>
+              <div class="box-con d-flex gap-3">
+                <div class="text">
+                  <h3 class="fw-bold main-color">Boast Search Google</h3>
+                  <p class="text-black-50 fs-6 w-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat enim numquam aperiam esse. Similique eius optio rem
+                  </p>
+                </div>
+                <div class="arrow d-flex align-items-center">
+                  <i class="fa-solid fa-arrow-right me-4 fs-3 alt-color"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-6">
+            <a
+              class="box section-bg rounded-4 d-flex gap-4 p-3 text-decoration-none"
+              href=""
+            >
+              <div class="num alt-color fw-bold fs-2">04</div>
+              <div class="box-con d-flex gap-3">
+                <div class="text">
+                  <h3 class="fw-bold main-color">SEO Services</h3>
+                  <p class="text-black-50 fs-6 w-75">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Placeat enim numquam aperiam esse. Similique eius optio rem
+                  </p>
+                </div>
+                <div class="arrow d-flex align-items-center">
+                  <i class="fa-solid fa-arrow-right me-4 fs-3 alt-color"></i>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end our services -->
+
+    <!-- start Testimonial -->
+    <section class="testimonial pb-5 section-bg mb-5" id="testimonial-section">
+      <!-- wave -->
+      <img
+        src="assets/images/wave.svg"
+        alt="wave png"
+        class="w-100 position-relative top-0"
+        style="transform: rotate(180deg)"
+      />
+      <!-- end wave -->
+      <div class="container">
+        <div
+          class="content d-flex justify-content-around gap-5 align-items-center position-relative"
+        >
+          <div class="image bg-white rounded-4 position-relative">
+            <img
+              src="assets/images/woman-execllent.png"
+              alt="woman excellent"
+              loading="lazy"
+              class="position-absolute start-50 translate-middle-x bottom-0 w-100"
+            />
+            <img
+              src="assets/images/quote-icon.png"
+              alt="quote icon"
+              width="70"
+              class="position-absolute quote-icon"
+              loading="lazy"
+            />
+          </div>
+          <div class="text w-50">
+            <div class="section-head text-center text-lg-start">
+              <h1 class="fw-bold main-color">Testimonial</h1>
+              <p class="text-black-50" style="font-size: 15px">
+                Here From Your Clients
+              </p>
+            </div>
+            <p
+              class="text-black-50 w-75 quote text-center text-lg-start"
+              style="font-size: 15px"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+              incidunt ipsam minima similique dolorum itaque.
+            </p>
+            <div class="clients mt-2 position-relative mb-5">
+              <div
+                class="clients-track d-flex align-items-center gap-3 overflow-hidden"
+              >
+                <div
+                  class="client h-100 d-flex gap-3 bg-white rounded-4 align-items-center overflow-hidden"
+                >
+                  <img
+                    src="assets/images/client-1.png"
+                    alt="profile photo"
+                    loading="lazy"
+                    class="rounded-start-4"
+                  />
+                  <div class="text p-2">
+                    <h4 class="main-color fw-bold">Mohamed Hassen</h4>
+                    <div class="rate d-flex gap-1 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="text-black-50 mt-3 w-75" style="font-size: 15px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita esse ipsa repudiandae quia, voluptates dicta!
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="client w-100 h-100 d-flex gap-3 bg-white rounded-4 align-items-center overflow-hidden"
+                >
+                  <img
+                    src="assets/images/client-2.jpg"
+                    alt="profile photo"
+                    loading="lazy"
+                    class="rounded-start-4"
+                  />
+                  <div class="text p-2">
+                    <h4 class="main-color fw-bold">May Sameh</h4>
+                    <div class="rate d-flex gap-1 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="text-black-50 mt-3 w-75" style="font-size: 15px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita esse ipsa repudiandae quia, voluptates dicta!
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="client w-100 h-100 d-flex gap-3 bg-white rounded-4 align-items-center overflow-hidden"
+                >
+                  <img
+                    src="assets/images/client-3.png"
+                    alt="profile photo"
+                    loading="lazy"
+                    class="rounded-start-4"
+                  />
+                  <div class="text p-2">
+                    <h4 class="main-color fw-bold">Ahmed Waleed</h4>
+                    <div class="rate d-flex gap-1 text-warning">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-regular fa-star"></i>
+                    </div>
+                    <p class="text-black-50 mt-3 w-75" style="font-size: 15px">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Expedita esse ipsa repudiandae quia, voluptates dicta!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="arrows position-absolute d-flex gap-2 start-50">
+            <div
+              class="left-arrow d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-arrow-left"></i>
+            </div>
+            <div
+              class="right-arrow d-flex justify-content-center align-items-center"
+            >
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Testimonial -->
+
+    <!-- start last section -->
+    <section class="py-5 my-5 main-bg last-section" id="contact-section">
+      <div class="container">
+        <div class="content d-flex justify-content-evenly align-items-center">
+          <div class="text">
+            <h1 class="w-75 text-white text-center text-lg-start">
+              Intersets To Work With Us ?
+            </h1>
+            <div
+              class="btns d-flex align-items-center gap-3 text-white fw-bold mt-5"
+            >
+              <div class="send-email py-2 px-4 main-bg rounded-3">
+                Send Email
+              </div>
+              <div class="contact-us py-2 px-3 main-bg rounded-3">
+                Contact Us
+              </div>
+            </div>
+          </div>
+          <div
+            class="statistics px-3 pb-3 d-flex bg-white rounded-5 position-relative justify-content-evenly pt-5"
+          >
+            <img
+              src="assets/images/woman-3.png"
+              class="pointer-woman z-3 position-absolute"
+              width="300"
+            />
+            <div class="box text-center">
+              <h5>Google Searches</h5>
+              <p class="fw-bold fs-1 my-1">90</p>
+              <p style="font-size: 13px" class="text-success m-0">
+                <i class="fa-solid fa-arrow-trend-up me-1"></i> 2.4%
+              </p>
+            </div>
+            <div class="box text-center">
+              <h5>Implementing</h5>
+              <p class="fw-bold fs-1 my-1">120</p>
+              <p style="font-size: 13px" class="text-success m-0">
+                <i class="fa-solid fa-arrow-trend-up me-1"></i> 1.23%
+              </p>
+            </div>
+            <div class="box text-center">
+              <h5>Innovation</h5>
+              <p class="fw-bold fs-1 my-1">60</p>
+              <p style="font-size: 13px" class="text-success m-0">
+                <i class="fa-solid fa-arrow-trend-up me-1"></i> 3.65%
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end last section -->
+
+    <!-- start sponsors -->
+    <div class="slider my-5" id="sponsors-section">
+      <div class="slide-track">
+        <div class="slide">
+          <img
+            src="assets/images/Adidas_logo.png"
+            alt="adidas logo"
+            loading="lazy"
+            class="w-50"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/amazon-logo.png"
+            alt="amazon logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/shopify-logo.png"
+            alt="shopify logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/nike-logo.png"
+            alt="nike logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/google-logo.png"
+            alt="google logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/smasoung-logo.png"
+            alt="samsoung logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/spoitify-logo.png"
+            alt="spoitify logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/microsoft-logo.png"
+            alt="microsoft logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/Adidas_logo.png"
+            alt="adidas logo"
+            loading="lazy"
+            class="w-50"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/amazon-logo.png"
+            alt="amazon logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/shopify-logo.png"
+            alt="shopify logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/nike-logo.png"
+            alt="nike logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/google-logo.png"
+            alt="google logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/smasoung-logo.png"
+            alt="samsoung logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/spoitify-logo.png"
+            alt="spoitify logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+        <div class="slide">
+          <img
+            src="assets/images/microsoft-logo.png"
+            alt="microsoft logo"
+            loading="lazy"
+            class="w-75"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- end sponsors -->
+
+    <!-- start footer -->
+    <footer class="py-5 section-bg">
+      <div class="container overflow-hidden">
+        <div class="row row-gap-3">
+          <div class="col-lg-3">
+            <div class="box position-relative">
+              <h1 class="fw-bold main-color agancy-name">Agency Name</h1>
+              <p class="fs-6 text-black-50 w-75">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laborum, voluptatem. Unde natus at officiis numquam itaque
+                debitis magnam deserunt doloremque
+              </p>
+              <div class="social-links">
+                <h4 class="fw-bold mb-3">Social Links</h4>
+                <div class="links">
+                  <a
+                    class="text-decoration-none linked-in fw-bold d-flex align-items-center pe-2 rounded-end-pill ps-1 py-2"
+                    href=""
+                  >
+                    <span class="me-3 text-white">Linked In</span
+                    ><i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                  <a
+                    class="text-decoration-none facebook fw-bold d-flex align-items-center my-3 pe-2 rounded-end-pill ps-1 py-2"
+                    href=""
+                  >
+                    <span class="me-3 text-white">Facebook</span
+                    ><i class="fa-brands fa-facebook"></i>
+                  </a>
+                  <a
+                    class="text-decoration-none insta fw-bold d-flex align-items-center pe-2 rounded-end-pill ps-1 py-2"
+                    href=""
+                  >
+                    <span class="me-3 text-white">Instagram</span
+                    ><i class="fa-brands fa-instagram"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 ps-2 quick-links">
+            <div class="box">
+              <h2 class="fw-bold main-color agancy-name">Quick Links</h2>
+              <ul class="list-unstyled mt-3 fw-bold">
+                <li class="d-flex align-items-center">
+                  <a href="#services-section" class="text-decoration-none"
+                    ><i class="fa-solid fa-chevron-right me-1"></i>Serives</a
+                  >
+                </li>
+                <li class="d-flex align-items-center">
+                  <a href="#testimonial-section" class="text-decoration-none"
+                    ><i class="fa-solid fa-chevron-right me-1"></i
+                    >Testimonial</a
+                  >
+                </li>
+                <li class="d-flex align-items-center">
+                  <a href="#contact-section" class="text-decoration-none"
+                    ><i class="fa-solid fa-chevron-right me-1"></i>Contact</a
+                  >
+                </li>
+                <li class="d-flex align-items-center">
+                  <a href="#sponsors-section" class="text-decoration-none"
+                    ><i class="fa-solid fa-chevron-right me-1"></i>Sponsors</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="box w-100 h-100">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d774398.4261005721!2d-73.41924700275656!3d40.69613305027864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2z2YbZitmI2YrZiNix2YPYjCDYp9mE2YjZhNin2YrYp9iqINin2YTZhdiq2K3Yr9ip!5e0!3m2!1sar!2seg!4v1723996721928!5m2!1sar!2seg"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- bootstrap js file -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- font awesome js file  -->
+    <script src="assets/js/all.min.js"></script>
+    <!-- main js file -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
